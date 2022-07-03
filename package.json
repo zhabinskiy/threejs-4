@@ -1,0 +1,21 @@
+{
+  "name": "threejs-4",
+  "version": "1.0.0",
+  "author": "Tino Zhabinskiy <hey@tino.works>",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.16.0",
+    "@react-three/fiber": "^8.0.27",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.142.0"
+  }
+}
